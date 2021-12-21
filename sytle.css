@@ -1,0 +1,117 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Config */
+:root{
+/*Primary*/
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+/*Neutral*/
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+/*Fonts*/
+--card-font: 'Red Hat Display', sans-serif;
+--standard-font: arial, verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: var(--Pale-blue);
+    color: var(--Desaturated-blue);
+    font-family: var(--card-font);
+}
+.container{
+    background-color: var(--Very-pale-blue);
+    width: 400px;
+    height: 600px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(51, 51, 51, 0.164);
+}
+.order{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.order img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.order h1{
+    color: var(--Dark-blue);
+    font-weight:bolder;
+    padding: 30px 0px 10px 20px;
+    font-size: 28px;
+}
+.order p{
+    text-align: center;
+    padding: 10px 40px;
+    line-height: 25px;
+}
+.price{
+    padding: 20px;
+    max-width: 340px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.price ul{
+    list-style: none;
+    columns: 2;
+}
+.price ul li{
+    line-height: 25px;
+}
+.price ul li a{
+    margin-left: 30px;
+}
+.price ul li a:hover{
+    cursor: pointer;
+}
+.price span{
+    font-weight: bolder;
+    color: var(--Dark-blue);
+}
+.pay{
+    width: 350px;
+    padding: 15px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    background-color: var(--Bright-blue);
+    font-size: large;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 10px;
+}
+.pay a{
+    text-decoration: none;
+    color: var(--Very-pale-blue);
+}
+.cancel{
+    width: 350px;
+    padding: 15px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    background-color: var(--Very-pale-blue);
+    font-size: 16px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 10px;
+}
+.cancel a{
+    text-decoration: none;
+    color: var(--Desaturated-blue);
+}
+.attribution{
+    padding: 10px;
+}
+.attribution a{
+    text-decoration: none;
+}

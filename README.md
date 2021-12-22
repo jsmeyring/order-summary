@@ -4,7 +4,7 @@
 
 ![desktop-preview](https://user-images.githubusercontent.com/91090905/146991261-abe20e97-55ed-4936-a723-df5437c433de.jpg)
 
-## Click to see my project - <a href="https://jsmeyring.github.io/FrontEnd-Mentor/order-summary/index.html" target="_blank">ORDER-SUMMARY</a>.
+## Click to see my project - <a href="https://jsmeyring.github.io/order-summary/" target="_blank">ORDER-SUMMARY</a>.
 
 ## I'm a beginning front-end developer.
 

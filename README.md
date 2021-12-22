@@ -13,3 +13,8 @@
 ### It is a challenge proposed by the [Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
 ### Please check my code and feel free to comment and edit the code.
+
+##### There is something wrong with the GitHubpages configuration because the images won't load.
+
+
+

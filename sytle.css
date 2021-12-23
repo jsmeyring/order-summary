@@ -26,10 +26,13 @@ body{
     color: var(--Desaturated-blue);
     font-family: var(--card-font);
 }
+main{
+    width: 400px;
+    height: 80px;
+}
 .container{
     background-color: var(--Very-pale-blue);
-    width: 400px;
-    height: 600px;
+    width: 100%;
     margin-top: 30px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(51, 51, 51, 0.164);
@@ -63,6 +66,8 @@ body{
     justify-content: space-around;
 }
 .price ul{
+    display: flex;
+    align-items: center;
     list-style: none;
     columns: 2;
 }
@@ -79,35 +84,31 @@ body{
     font-weight: bolder;
     color: var(--Dark-blue);
 }
-.pay{
-    width: 350px;
+.submit button{
+    width: 87%;
     padding: 15px;
     margin-left: 25px;
     margin-bottom: 20px;
     background-color: var(--Bright-blue);
+    color: var(--Very-pale-blue);
     font-size: large;
     font-weight: bold;
     border: 0px;
     border-radius: 10px;
 }
-.pay a{
-    text-decoration: none;
-    color: var(--Very-pale-blue);
-}
-.cancel{
-    width: 350px;
+.cancel button{
+    width: 87%;
     padding: 15px;
     margin-left: 25px;
     margin-bottom: 20px;
-    background-color: var(--Very-pale-blue);
-    font-size: 16px;
+    color: var(--Desaturated-blue);
+    font-size: large;
     font-weight: bold;
     border: 0px;
     border-radius: 10px;
 }
-.cancel a{
-    text-decoration: none;
-    color: var(--Desaturated-blue);
+button{
+    cursor: pointer;
 }
 .attribution{
     padding: 10px;

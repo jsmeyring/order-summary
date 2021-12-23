@@ -85,7 +85,6 @@ main{
     color: var(--Dark-blue);
 }
 .submit button{
-    width: 87%;
     padding: 15px;
     margin-left: 25px;
     margin-bottom: 20px;
@@ -97,7 +96,6 @@ main{
     border-radius: 10px;
 }
 .cancel button{
-    width: 87%;
     padding: 15px;
     margin-left: 25px;
     margin-bottom: 20px;
@@ -108,6 +106,7 @@ main{
     border-radius: 10px;
 }
 button{
+    width: 87%;
     cursor: pointer;
 }
 .attribution{
